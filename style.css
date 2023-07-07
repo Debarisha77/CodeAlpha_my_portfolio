@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(239, 121, 166);
+    
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+
+}
+.logo{
+   
+   margin: 30px;
+   margin-left: 80%;
+   
+   width: 45px;
+}
+.sidebar nav{
+    padding: 38px;
+    height: 770px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 47px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(98, 46, 103);
+    font-weight: bold;
+}
+.main{
+    background-color:  rgb(247, 141, 213);
+    width: 100vw;
+
+    
+}
+.container{
+    display: inline-flex;
+}
+.infoContainer{
+    background-color: rgb(233, 185, 247);
+   height: 55vh;
+   width: 80vw;
+   margin: 180px auto;
+   display: flex;
+   justify-content: space-around;
+   font-weight: bold;
+}
+.hello{
+    font-size: 30px;
+   
+
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.about{
+    font-size: 18px; ;
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(224, 78, 243);
+    background-color: rgb(229, 211, 249);
+    cursor: pointer;
+   
+}
+.btn-sn{
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(224, 78, 243);
+    background-color: rgb(229, 211, 249);
+    cursor: pointer;
+    
+
+}
+.btn-sn:hover{
+    background-color:rgb(229, 211, 249);
+    color:rgb(249, 13, 147);
+    transform: translateY(-5px);
+}
+
+.buttons button:hover{
+    background-color:rgb(229, 211, 249);
+    color:rgb(249, 13, 147);
+    transform: translateY(-5px);
+    
+}
+.divPic img{
+    margin-top: 20px;
+    height: 340px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 40px;
+}
+.divInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Source Code Pro', monospace;
+
+
+
+}
+
+.contactform{
+    font-family: 'Poppins', sans-serif;
+    padding: 0 50px;
+    padding-top: 150px;
+    
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+   
+}
+.contactform form div input{
+    padding: 3px;
+    border-radius: 10px;
+    margin: 35px 0 0 0;
+    
+}
+#emailHelp{
+    font-size: 10px;
+    color: rgb(59, 38, 65)
+    
+    
+}
+#form-check input{
+    width: 24px;
+    margin: 15px 0;
+}
+.contactform{
+    height: 700px;
+    margin-left: 210px;
+}
+.blogContainer{
+    height: 980px;
+    margin-left: 250px;
+    margin-top: 45px;
+}
+
+.blogitem{
+    margin: 25px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.blogContainer h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    margin: 10px;
+   
+}
+.bloghitem p{
+    font-family: 'Source Code Pro', monospace;
+}
+.skillContainer{
+    margin-left: 210px;
+    height: 580px;
+}
+.skillContainer h2{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+.skillContainer{
+    padding: 30px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+.skill{
+    margin: 10px;
+    padding: 3px;
+    background-color: rgb(242, 34, 124);
+    align-items: center;
+    width: 120px;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 5px;
+}
+.e{
+    width: 450px;
+
+}
+.s{
+    width: 350px;
+}
+.sixty{
+    width: 250px;
+}
+.projectContainer h2{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.projectContainer{
+    padding: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin-left: 210px;
+}
+.sidebarGo{
+    
+        transform: translate(-443px, 0px);
+        position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    left: 10px;
+}
+.cross{
+    margin-left: 147px;
+}
+.project{
+    margin: 10px;
+    padding: 3px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    
+}
+
+.contactleft{
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgb(239, 138, 185);
+    font-weight: bold;
+    padding: 25px;
+}
+.contactleft p{
+    margin: 5px;
+    padding: 10px;
+}
+.contactleft p i{
+    color:rgb(243, 13, 85);
+    margin-right: 10px;
+    font-size: 20px;
+}
+.social-icons{
+    margin: 5px;
+    padding: 10px;
+}
+.foot{
+    background-color: rgb(174, 17, 32);;
+}
+.social-icons a{
+text-decoration: none;
+font-size: 25px;
+display: inline-block;
+color:rgb(243, 13, 85);
+
+}
+.social-icons a:hover{
+    transform: translateY(-5px);
+    color: rgb(135, 11, 193);
+    
+}
